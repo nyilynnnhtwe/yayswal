@@ -1,0 +1,123 @@
+body
+{
+    margin: 0;
+    background-color: rgba(234, 234, 234, 0.645);
+}
+
+#flexbox
+{
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+.settings
+{
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    width: 1200px;
+    margin: auto;
+}
+
+.setting_boxes
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+
+
+.btn
+{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.499);
+    border-radius: 10px;
+}
+
+
+
+
+.btn:hover
+{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    transition: font-size 0.5s ease-in-out;
+}
+
+.container
+{
+    margin: auto;
+    margin-top: 2%;
+    padding: 0;
+    display: grid;
+    background-color: rgb(233, 232, 232);
+    width       : 400px;
+    height      : 400px;
+    align-self: center;
+    box-shadow  : rgb(0 0 0 /10%)  5px 5px 5px;
+}
+
+#colorBox
+{
+    margin: auto;
+    margin-top: 50px;
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    overflow: hidden;
+    box-shadow  : rgb(0 0 0 /20%)  15px 15px 15px;
+}
+
+[type="color"]
+{
+    outline: none;
+    border:none;
+    padding: 0;
+    /* display: block; */
+    width: 200%;
+    height: 200%;
+    transform: translate(-25%, -25%);
+}
+
+
+
+#pixels
+{
+    margin-top: 20px;
+}
+
+#rainBowModeBtn
+{
+    margin-bottom: 50px;
+}
+
+
+#selectPixels
+{
+    font-size: 20px;
+}
+
+
+#selectPixels img
+{
+    width: 12px;
+}
+
+.selectedBox
+{
+    color: white;
+    background-color: rgb(46, 46, 46);
+}
