@@ -5,11 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Yay Swal</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
 </head>
 
 <body>
+
+    <div id="language_mode_btns">
+        <div class="lang_btns" id="eng_btn">ENG</div>
+        <div class="lang_btns" id="mm_btn">MM</div>
+    </div>
+
     <div id="flexbox">
         <div class="settings">
 
@@ -24,7 +31,7 @@
                 <div class="btn" id="rainBowModeBtn">RainBow Mode</div>
                 <div id="selectPixels"><span class="pixelVal"> 16 </span> <img src="./close.png" alt=""> <span class="pixelVal"> 16 </span></div>
     
-                <input type="range" name="" id="pixels" min="1" max="64">
+                <input type="range" name="" id="pixels" min="1" max="64" value="16">
             </div>
 
             <div class="btn setting_boxes" id="eraserBtn">Eraser</div>
@@ -32,19 +39,16 @@
             <div class="btn setting_boxes" id="clearBtn">Clear</div>
 
             <br>
-
-
-
-
-
         </div>
 
 
         <div class="container">
-
         </div>
+
+        <div id="downloadBtn">Download</div>
     </div>
 </body>
 <script src="./script.js"></script>
+<script src="./html2canvas.min.js"></script>
 
 </html>
